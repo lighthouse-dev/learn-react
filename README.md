@@ -1,3 +1,3 @@
 # react
 
-React 스터디, 검증 리포지토리
+https://codesandbox.io/s/github/lighthouse-dev/react/tree/csb-d4193

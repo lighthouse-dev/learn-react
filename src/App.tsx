@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div>
       <p> You clicked {count} times </p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <button onClick={() => setCount(count + 1)}> Click me </button>
       <button onClick={handleAlertClick}>Show alert</button>
     </div>
   );

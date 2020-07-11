@@ -30,6 +30,10 @@ export default function App() {
   //   그리고 각각의 이펙트 함수는 그 랜더링에 “속한” props와 state를 보게됨.
   useEffect(() => {
     document.title = `You clicked ${count} times`;
+
+    setTimeout(() => {
+      console.log(`You clicked ${count} times`);
+    }, 3000);
   });
 
   return (

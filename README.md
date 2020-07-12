@@ -1,3 +1,3 @@
-# react
+# 모든 랜더링은 고유의 이펙트를 가진다
 
-React 스터디, 검증 리포지토리
+https://codesandbox.io/s/github/lighthouse-dev/react/tree/csb-671bp

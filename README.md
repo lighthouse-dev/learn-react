@@ -1,3 +1,3 @@
-# react
+# 모든 랜더링은 고유의 이벤트 핸들러를 가진다
 
-React 스터디, 검증 리포지토리
+https://codesandbox.io/s/github/lighthouse-dev/react/tree/csb-d4193

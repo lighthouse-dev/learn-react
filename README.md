@@ -1,3 +1,3 @@
-# react
+# 클린업 (Clean-up)
 
-React 스터디, 검증 리포지토리
+https://codesandbox.io/s/github/lighthouse-dev/react/tree/csb-7v7gl

@@ -13,6 +13,8 @@ export default function FunctionUpdateCount() {
       // 리액트는 현재의 count 를 이미 알고 있다
       // 우리가 리액트에게 알려줘야 하는 것은 지금 값이 뭐든 간에 상태 값을 하나 더하라는 것
       // 그게 정확히 setCount(c => c +1) 이 의도하는 것
+      // setCount(c => c + 1) 같은 업데이터 형태는 setCount(count + 1) 보다 명백히 적은 정보를 전달함
+      // 현재의 카운트 값에 “오염되지” 않기 때문. 그저 행위(“증가”)를 표현할 뿐
       setCount(c => c + 1);
     }, 1000);
     return () => clearInterval(id);
